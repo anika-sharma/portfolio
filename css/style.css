@@ -1,0 +1,19 @@
+/** Index **/
+blockquote {
+    border-color:#616161;
+}
+
+/**Color Palette**/
+.color-pal {
+    height:20px;
+    width: 20px;
+}
+
+/** Resume **/
+.collection {
+    border: none;
+}
+
+.collection .collection-item {
+    border:none;
+}
