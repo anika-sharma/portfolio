@@ -1,6 +1,101 @@
-/** Index **/
-blockquote {
-    border-color:#616161;
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+header, main, footer {
+	padding-left: 300px;
+}
+
+/** Side Nav **/
+.user-view img {
+	height: 160px;
+	width: 160px;
+	margin: 0 auto;
+	display: block;
+}
+
+.user-view p {
+	line-height: 1.5;
+    color: #555;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 15px;
+}
+
+.side-nav .social-links {
+	display: inline-flex;
+	padding: 32px 32px 0;
+	position: absolute;
+	bottom: 15%;
+}
+
+.side-nav .social-links>a {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	padding: 0 5px;
+	margin-right: 10px;
+	font-size: 21px;
+}
+
+.side-nav .social-links>a:hover {
+	background-color: #fff;
+}
+
+
+main {
+	margin-top: -45px;
+}
+
+main .container {
+	width: 100%;
+}
+
+main .row .pad-left {
+	padding-left: 0;
+}
+
+main .row .pad-right {
+	padding-right: 0;
+}
+
+main .card {
+	cursor: pointer;
+	margin: 0;
+}
+
+main .mineral-project {
+	background: url(../images/mineralproject-thumb.jpg) no-repeat;
+	background-size: cover;
+}
+
+main .zepo-tranquil {
+	background: url(../images/tranquil-thumb.jpg) no-repeat;
+	background-size: cover;
+}
+
+main .ropeway {
+	background: url(../images/ropeway-thumb.jpg) no-repeat;
+	background-size: cover;
+}
+
+main .nucleus {
+	background: url(../images/nucleus42-thumb.png) no-repeat;
+	background-size: cover;
+}
+
+.card.small .card-image {
+	max-height: 100%;
+}
+
+.layer {
+	height: 100%;
+	opacity: 0.5;
+}
+
+.layer:hover {
+	opacity: 0;
 }
 
 /**Color Palette**/
@@ -9,11 +104,8 @@ blockquote {
     width: 20px;
 }
 
-/** Resume **/
-.collection {
-    border: none;
-}
-
-.collection .collection-item {
-    border:none;
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
 }
