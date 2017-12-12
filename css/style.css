@@ -43,13 +43,6 @@ a {
 }
 
 /** Side Nav **/
-.user-view img {
-	height: 160px;
-	width: 160px;
-	margin: 0 auto;
-	display: block;
-}
-
 .side-nav li>a {
 	font-weight: bold;
 	font-size: 13px;
@@ -89,6 +82,9 @@ a {
 }
 
 /** Portfolio **/
+blockquote {
+	border-left-color: #ec407a;
+}
 
 .collapsible-header {
 	border-bottom-color: transparent; 
@@ -123,6 +119,11 @@ span.badge.new {
 @media only screen and (max-width : 992px) {
 	header, main, footer {
 		padding-left: 0;
+	}
+
+	.side-nav .user-view {
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
 	.contact img {
